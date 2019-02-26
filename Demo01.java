@@ -1,13 +1,13 @@
 package demo;
 
-/***Ö´ĞĞË³Ğò
- * 1. ¸¸Àà¾²Ì¬¶ÔÏó£¨°üÀ¨¾²Ì¬¿é¡¢¾²Ì¬³ÉÔ±£¬°´ÕÕÁ½Õß³öÏÖµÄÏÈºóË³ĞòÖ´ĞĞ£©
- * 2. µ±Ç°Àà¾²Ì¬¶ÔÏó£¨°üÀ¨¾²	Ì¬¿é¡¢¾²Ì¬³ÉÔ±£¬°´ÕÕÁ½Õß³öÏÖµÄÏÈºóË³ĞòÖ´ĞĞ£©
- * 3. Ö÷º¯Êı
- * 4. ¸¸Àà·Ç¾²Ì¬¶ÔÏó£¨°üÀ¨¹¹Ôì¿é¡¢³ÉÔ±±äÁ¿£¬°´ÕÕÁ½Õß³öÏÖµÄÏÈºóË³ĞòÖ´ĞĞ£©
- * 5. ¸¸Àà¹¹Ôì·½·¨
- * 6. µ±Ç°Àà·Ç¾²Ì¬¶ÔÏó£¨°üÀ¨¹¹Ôì¿é¡¢³ÉÔ±±äÁ¿£¬°´ÕÕÁ½Õß³öÏÖµÄÏÈºóË³ĞòÖ´ĞĞ£©
- * 7. µ±Ç°Àà¹¹Ôì·½·¨
+/***ç±»ä¸­é™æ€å¯¹è±¡ã€éé™æ€å¯¹è±¡ä»¥åŠæ„é€ æ–¹æ³•çš„æ‰§è¡Œé¡ºåºï¼š
+ * 1. çˆ¶ç±»é™æ€å¯¹è±¡ï¼ˆåŒ…æ‹¬é™æ€å—ã€é™æ€æˆå‘˜ï¼ŒæŒ‰ç…§ä¸¤è€…å‡ºç°çš„å…ˆåé¡ºåºæ‰§è¡Œï¼‰
+ * 2. å½“å‰ç±»é™æ€å¯¹è±¡ï¼ˆåŒ…æ‹¬é™	æ€å—ã€é™æ€æˆå‘˜ï¼ŒæŒ‰ç…§ä¸¤è€…å‡ºç°çš„å…ˆåé¡ºåºæ‰§è¡Œï¼‰
+ * 3. ä¸»å‡½æ•°
+ * 4. çˆ¶ç±»éé™æ€å¯¹è±¡ï¼ˆåŒ…æ‹¬æ„é€ å—ã€æˆå‘˜å˜é‡ï¼ŒæŒ‰ç…§ä¸¤è€…å‡ºç°çš„å…ˆåé¡ºåºæ‰§è¡Œï¼‰
+ * 5. çˆ¶ç±»æ„é€ æ–¹æ³•
+ * 6. å½“å‰ç±»éé™æ€å¯¹è±¡ï¼ˆåŒ…æ‹¬æ„é€ å—ã€æˆå‘˜å˜é‡ï¼ŒæŒ‰ç…§ä¸¤è€…å‡ºç°çš„å…ˆåé¡ºåºæ‰§è¡Œï¼‰
+ * 7. å½“å‰ç±»æ„é€ æ–¹æ³•
  */
 
 public class Demo01 extends Test{
@@ -15,36 +15,36 @@ public class Demo01 extends Test{
 	public int a = printA();
 	
 	/**
-	 * ¹¹Ôì¿é
+	 * æ„é€ å—
 	 */
 	{
-		System.out.println("main¹¹Ôì¿é");
+		System.out.println("mainæ„é€ å—");
 	}
 	
 	/**
-	 * ¾²Ì¬¿é
+	 * é™æ€å—
 	 */
 	static {
-		System.out.println("main¾²Ì¬¿é");
+		System.out.println("mainé™æ€å—");
 	}
 	
 	public static int num = print();
 	
 	public Demo01() {
-		System.out.println("main¹¹Ôì·½·¨");
+		System.out.println("mainæ„é€ æ–¹æ³•");
 	}
 	
 	public static int print() {
-		System.out.println("main¾²Ì¬±äÁ¿");
+		System.out.println("mainé™æ€å˜é‡");
 		return 250;
 	}
 	private int printA() {
-		System.out.println("main³ÉÔ±±äÁ¿");
+		System.out.println("mainæˆå‘˜å˜é‡");
 		return 255;
 	}
 	
 	/**
-	 * Ö÷º¯Êı
+	 * ä¸»å‡½æ•°
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -57,95 +57,95 @@ public class Demo01 extends Test{
 
 
 /**
- * ¸¸Àà
+ * çˆ¶ç±»
  * @author boss
  *
  */
 class Test{
 	
 	/**
-	 * ¾²Ì¬¿é
+	 * é™æ€å—
 	 */
 	static {
-		System.out.println("test¾²Ì¬¿é1");
+		System.out.println("testé™æ€å—1");
 	}
 	
 	public int a = printA();
 	public static int num = print();
 	
 	/**
-	 * ¹¹Ôì¿é
+	 * æ„é€ å—
 	 */
 	{
-		System.out.println("test¹¹Ôì¿é");
+		System.out.println("testæ„é€ å—");
 	}
 	
 	public String b = printB();
 	
 	/**
-	 * ¾²Ì¬¿é
+	 * é™æ€å—
 	 */
 	static {
-		System.out.println("test¾²Ì¬¿é2");
+		System.out.println("testé™æ€å—2");
 	}
 	
 	/**
-	 * ¹¹Ôì·½·¨
+	 * æ„é€ æ–¹æ³•
 	 */
 	public Test() {
-		System.out.println("testÎŞ²Î¹¹Ôì·½·¨");
+		System.out.println("testæ— å‚æ„é€ æ–¹æ³•");
 	}
 	
 	/**
-	 * ¹¹Ôì·½·¨
+	 * æ„é€ æ–¹æ³•
 	 * @param x
 	 */
 	public Test(int x) {
 		this.a = x;
-		System.out.println("testÓĞ²Î¹¹Ôì·½·¨");
+		System.out.println("testæœ‰å‚æ„é€ æ–¹æ³•");
 	}
 			
 	/**
-	 * ¾²Ì¬·½·¨
+	 * é™æ€æ–¹æ³•
 	 * @return
 	 */
 	public static int print() {
-		System.out.println("test¾²Ì¬±äÁ¿");
+		System.out.println("testé™æ€å˜é‡");
 		return 521;
 	}
 	
 	/**
-	 * Ë½ÓĞ·½·¨
+	 * ç§æœ‰æ–¹æ³•
 	 * @return
 	 */
 	private int printA() {
-		System.out.println("test³ÉÔ±±äÁ¿1");
+		System.out.println("testæˆå‘˜å˜é‡1");
 		return 255;
 	}
 	
 	/**
-	 * Ë½ÓĞ·½·¨
+	 * ç§æœ‰æ–¹æ³•
 	 * @return
 	 */
 	private String printB() {
-		System.out.println("test³ÉÔ±±äÁ¿2");
+		System.out.println("testæˆå‘˜å˜é‡2");
 		return "hello";
 	}
 }
 
 
-/***Ö´ĞĞ½á¹û
-test¾²Ì¬¿é1
-test¾²Ì¬±äÁ¿
-test¾²Ì¬¿é2
-main¾²Ì¬¿é
-main¾²Ì¬±äÁ¿
+/***æ‰§è¡Œç»“æœ
+testé™æ€å—1
+testé™æ€å˜é‡
+testé™æ€å—2
+mainé™æ€å—
+mainé™æ€å˜é‡
 main start...
-test³ÉÔ±±äÁ¿1
-test¹¹Ôì¿é
-test³ÉÔ±±äÁ¿2
-testÎŞ²Î¹¹Ôì·½·¨
-main³ÉÔ±±äÁ¿
-main¹¹Ôì¿é
-main¹¹Ôìº¯Êı
+testæˆå‘˜å˜é‡1
+testæ„é€ å—
+testæˆå‘˜å˜é‡2
+testæ— å‚æ„é€ æ–¹æ³•
+mainæˆå‘˜å˜é‡
+mainæ„é€ å—
+mainæ„é€ å‡½æ•°
  */
